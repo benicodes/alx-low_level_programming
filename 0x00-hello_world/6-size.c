@@ -15,8 +15,9 @@ int main(void)
 	long long twiceLong;
 	float iamFloat;
 
-	printf("Size of a char: %ld byte(s)\n", sizeof((character));
-	printf("Size of an int: %ld byte(s)\n", sizeof((integer));
-	printf("Size of long: %ld byte(s)\n", sizeof((isLong));
-	printf("Size of long long: %ld byte(s)\n", sizeof((twiceLong));
+	printf("Size of a char: %c byte(s)\n", sizeof((character));
+	printf("Size of an int: %i byte(s)\n", sizeof((integer));
+	printf("Size of long: %d byte(s)\n", sizeof((isLong));
+	printf("Size of long long: %Lf byte(s)\n", sizeof((twiceLong));
+	printf("Size of float: %f byte(s)\n", sizeof((iamFloat);
 }
