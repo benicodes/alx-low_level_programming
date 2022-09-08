@@ -11,13 +11,13 @@ int main(void)
 {
 	char character;
 	int integer;
-	long isLong;
-	long long twiceLong;
+	long int isLong;
+	long long int twiceLong;
 	float iamFloat;
 
 	printf("Size of a char: %ld byte(s)\n", sizeof(character));
 	printf("Size of an int: %ld byte(s)\n", sizeof(integer));
-	printf("Size of long: %ld byte(s)\n", sizeof(isLong));
-	printf("Size of long long: %ld byte(s)\n", sizeof(twiceLong));
-	printf("Size of float: %ld byte(s)\n", sizeof(iamFloat));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(isLong));
+	printf("Size of a long long int: %ld byte(s)\n", sizeof(twiceLong));
+	printf("Size of a float: %ld byte(s)\n", sizeof(iamFloat));
 }
