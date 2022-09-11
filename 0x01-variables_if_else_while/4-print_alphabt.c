@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * main - entry file
  * description: prints alphabet in lower,
