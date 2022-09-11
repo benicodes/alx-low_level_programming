@@ -2,9 +2,8 @@
 
 /**
  * main - entry file
- * description - function to print numbers
- * then end with a new line
- * Return (0) Success
+ * description: print numbers then a new line
+ * Return: (0) Always success
  */
 
 int main(void)
