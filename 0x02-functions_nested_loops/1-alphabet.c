@@ -3,7 +3,7 @@
 
 /**
  * main - check the code
- * description: function to print alphabet in lowercase a - z
+ * description: this function print lowercase alphabets
  * Return : Always 0.
  */
 
@@ -11,7 +11,7 @@ void print_alphabet(void);
 
 int main(void)
 {
-	print_alphabet();
+	print_alphabet(void);
 	return (0);
 }
 
