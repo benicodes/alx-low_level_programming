@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
- * description: this propram prints lowercase alphabet, followed by a new line
- * Return : Always 0.
+ * print_alphabet - print alphabets, followed by a new line
  */
 
 void print_alphabet(void)
@@ -13,6 +11,7 @@ void print_alphabet(void)
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		_putchar(ch);
-		_putchar('\n');
 	}
+
+	_putchar('\n');
 }
